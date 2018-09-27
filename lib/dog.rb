@@ -14,6 +14,7 @@ class Dog
 
   def self.all
     @@all.inspect
+    puts @@all
   end
 
 
