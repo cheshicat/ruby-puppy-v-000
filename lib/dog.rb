@@ -13,8 +13,8 @@ class Dog
   end
 
   def self.all
-    @@all.inspect
-    puts @@all
+    @@all
+    puts @@all.inspect
   end
 
 
