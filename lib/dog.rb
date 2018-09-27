@@ -13,8 +13,8 @@ class Dog
   end
 
   def self.all
-    @@all
-    puts @@all.inspect
+    @@all.each do |dog|
+    end
   end
 
 
