@@ -13,7 +13,7 @@ class Dog
   end
 
   def self.all
-    @@all.value
+    @@all.inspect
   end
 
 
